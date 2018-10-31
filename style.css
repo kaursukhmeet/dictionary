@@ -1,0 +1,40 @@
+#content{
+    text-align: center;    
+    border: 1px dashed black;
+    height: 40vh;
+    width: 40%;
+    margin-top:15vh;
+    padding-top:8vh;
+    font-size: 25px;
+    transition: width 1s,height 1s,margin 1s;
+    overflow:auto;
+
+}
+#head{
+    font-size:40px;
+    font-weight:100;  
+    animation-duration: 2s;  
+}
+input{
+    text-align: center;
+    width: 50%;
+    border-radius: 4%;
+}
+input:focus::-moz-placeholder { color:transparent; }
+p{
+    text-transform: uppercase;
+}
+#txt{
+    width: 50%;
+    
+    margin:auto;
+}
+body{
+    font-family: 'Open Sans' , sans-serif !important;
+}
+#key{
+    color:#63B995;
+}
+.j{
+    text-justify: auto;
+}
